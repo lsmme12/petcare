@@ -1,7 +1,15 @@
-/.metadata/
-/Servers/
-/build/
-/target/
-/.settings/
-/.project
-/.classpath
+# === Eclipse / Tomcat 환경 설정 제외 ===
+.metadata/
+Servers/
+.settings/
+.classpath
+.project
+build/
+target/
+
+# === 기타 IDE / OS 파일 제외 ===
+.DS_Store
+Thumbs.db
+
+# === bin 폴더 (Java 컴파일 산출물) ===
+bin/
