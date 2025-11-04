@@ -5,15 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>게시글 목록</title>
-<style>
-body { font-family:'Malgun Gothic'; background:#fafafa; margin:40px; }
-h2 { color:#333; }
-table { width:100%; border-collapse:collapse; background:#fff; }
-th, td { border:1px solid #ccc; padding:8px; text-align:center; }
-th { background:#eee; }
-a { color:#3366cc; text-decoration:none; }
-a:hover { text-decoration:underline; }
-</style>
 </head>
 <body>
 
