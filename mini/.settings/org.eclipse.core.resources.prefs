@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/petcare/controller/IdCheckServlet.java=UTF-8
+encoding//src/main/java/com/petcare/controller/LoginServlet.java=UTF-8
+encoding//src/main/java/com/petcare/controller/LogoutServlet.java=UTF-8
+encoding//src/main/java/com/petcare/dao/OwnerDAO.java=UTF-8
+encoding/<project>=x-windows-949
