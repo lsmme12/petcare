@@ -1,22 +1,31 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Pet 조회</title>
+<meta charset="UTF-8">
+<title>PetCare | 홈</title>
+<link rel="stylesheet" href="<c:url value='/css/style.css'/>">
 </head>
 <body>
-    <h2>운동기록 리스트</h2>
-    <!-- pet_id 1 조회 버튼 -->
-   <form action="${pageContext.request.contextPath}/exer_list.do" method="get">
-    <input type="hidden" name="petId" value="1">
-    <button type="submit">리스트 조회</button>
-    </form>
-   <form action="${pageContext.request.contextPath}/pet_view.do" method="get">
-    <input type="hidden" name="petId" value="1">
-    <button type="submit">리스트 조회</button>
-</form>
+<header>
+  <h1>
+    <a class="logo" href="<c:url value='/index.do'/>">
+      <img src="<c:url value='/img/logo.png'/>" alt="PetCare 로고">
+    </a>
+  </h1>
+  <nav>
+    <button class="login-btn" onclick="location.href='<c:url value="/login.do"/>'">log in</button>
+  </nav>
+</header>
 
- 
-<h4>해야할것:  각 강아지번호에 맞춰서 그 강아지 운동기록만 나오게하기, 프론트 강아지 케어 피그마로 디자인</h4>
+<main>
+  <h2>반려인의 일상,<br>PetCare와 함께하세요.</h2>
+  <p>운동 관리와 커뮤니티, 투약 기록을 한 번에 관리해 보세요.</p>
+
+  <button class="main-btn" onclick="location.href='<c:url value="/join.do"/>'">회원가입 바로가기</button>
+</main>
+
+<footer>© 2025 PetCare Mini Project | Team petcare</footer>
 </body>
-
 </html>
